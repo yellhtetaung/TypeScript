@@ -24,11 +24,11 @@
 ## What you need to know?
 
 - JavaScript Concepts
-- - Variables
-- - Arrays
-- - Objects
-- - Functions
-- - Conditions
+  - Variables
+  - Arrays
+  - Objects
+  - Functions
+  - Conditions
 
 ## Setup TypeScript
 
