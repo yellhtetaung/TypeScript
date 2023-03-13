@@ -344,7 +344,33 @@ console.log(published);
   - Function in JavaScript that not return a value will show undefined
   - undefined is not void
 
+```typescript
+function logging(msg: string) {
+  console.log(msg);
+  return;
+}
+
+console.log(logging("I am a message"));
+console.log("Test");
+
+const fail = (msg: string) => {
+  throw new Error(msg);
+  // return 10;
+};
+```
+
 - Never
   - Return type never returns
   - The function doesn't have a normal completion
   - It throws an error or never finishes running at all 'Infinite Loop'
+
+```typescript
+function alwaysLog(name: string): never {
+  while (true) {
+    console.log(name);
+  }
+}
+
+// alwaysLog("Osama");
+console.log("Test");
+```
