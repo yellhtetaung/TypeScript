@@ -335,3 +335,16 @@ console.log(id);
 console.log(title);
 console.log(published);
 ```
+
+### Void And Never
+
+- Void
+
+  - Function that will return nothing
+  - Function in JavaScript that not return a value will show undefined
+  - undefined is not void
+
+- Never
+  - Return type never returns
+  - The function doesn't have a normal completion
+  - It throws an error or never finishes running at all 'Infinite Loop'
