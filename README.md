@@ -76,10 +76,10 @@ tsc -v
 tsc --init
 ```
 
-| tsconfig.json  |              Configuration              |
-| :------------: | :-------------------------------------: |
-|     target     | ES2015 - ES2023, ES3 , ES5, ES6, ESNext |
-|    rootDir     |                 "./dir"                 |
-|     outDir     |                 "./dir"                 |
-| removeComments |                  true                   |
-| noEmitOnError  |                  true                   |
+| tsconfig.json  | Configuration                           |
+| -------------- | --------------------------------------- |
+| target         | ES2015 - ES2023, ES3 , ES5, ES6, ESNext |
+| rootDir        | "./dir"                                 |
+| outDir         | "./dir"                                 |
+| removeComments | true                                    |
+| noEmitOnError  | true                                    |
